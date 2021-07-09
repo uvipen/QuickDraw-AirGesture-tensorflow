@@ -16,7 +16,7 @@ Here is my python source code for QuickDraw - an online game developed by google
 In order to use this app, you only need to use your hand to draw in front of a camera/webcam. the middle point of your hand will be detected and highlighted by a red dot. When you are ready for drawing, you need to press **space** button. When you want to stop drawing, press **space** again
 Below is the demo by running the sript **camera_app.py**:
 <p align="center">
-  <img src="demo/quickdraw_airgesture.gif" width=600><br/>
+  <img src="demo/quickdraw_airgesture.gif" width=900><br/>
   <i>Camera app demo</i>
 </p>
 
