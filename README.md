@@ -8,12 +8,12 @@
 
 ## Introduction
 
-Here is my python source code for QuickDraw - an online game developed by google, combined with AirGesture - a simple gesture recognition application. with my code, you could: 
+Here is my python source code for QuickDraw - an online game developed by google, combined with AirGesture - a simple gesture recognition application. By using my code, you could: 
 * **Run an app which you could draw in front of a camera with your hand (If you use laptop, your webcam will be used by default)**
 * **Run an app which you could draw on a canvas**
 
 ## Camera app
-In order to use this app, you only need to use your hand to draw in front of a camera/webcam. the middle point of your hand will be detected and highlighted by a red dot. When you are ready for drawing, you need to press **space** button. When you want to stop drawing, press **space** again
+In order to use this application, you only need to use your hand to draw in front of a camera/webcam. The middle point of your hand will be detected and highlighted by a red dot. When you are ready for drawing, you need to press **space** button to start drawing. When you want to stop drawing, press **space** button again.
 Below is the demo by running the sript **camera_app.py**:
 <p align="center">
   <img src="demo/quickdraw_airgesture.gif" width=800><br/>
