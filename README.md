@@ -13,7 +13,7 @@ Here is my python source code for QuickDraw - an online game developed by google
 * **Run an app which you could draw on a canvas**
 
 ## Camera app
-In order to use this app, you only need to use your hand to draw in front of the camera. the middle point of your hand will be detected and highlighted by an yellow circle. When you are ready for drawing, you need to press **space** button. When you want to stop drawing, press **space** again
+In order to use this app, you only need to use your hand to draw in front of a camera/webcam. the middle point of your hand will be detected and highlighted by a red dot. When you are ready for drawing, you need to press **space** button. When you want to stop drawing, press **space** again
 Below is the demo by running the sript **camera_app.py**:
 <p align="center">
   <img src="demo/quickdraw_airgesture.gif" width=600><br/>
@@ -54,7 +54,7 @@ If you want to launch the application, first you need to run `xhost +` to turn o
 
 `sudo docker run --gpus all -it --rm --volume="path/to/your/data:/workspace/code/data -e DISPLAY=$DISPLAY --env="QT_X11_NO_MITSHM=1" -v /tmp/.X11-unix:/tmp/.X11-unix --device=/dev/video0:/dev/video0 qd_ag`
 
-Then inside docker container, you could simply run **train.py** or **camera_app.py** scripts for training or launching app respectively. By default, the **camera_app.py** script will automatically generate a video capturing what you have done during the session, at **data/output.mp4**
+Inside docker container, you could run **train.py** or **camera_app.py** scripts for training or launching app respectively. By default, the **camera_app.py** script will automatically generate a video capturing what you have done during the session, at **data/output.mp4**
 
 
 
